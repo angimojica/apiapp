@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "target": "ES2020",
+      "jsx": "react",
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "esModuleInterop": true, // Permite la importación de módulos ES desde módulos CommonJS
+      "forceConsistentCasingInFileNames": true, // Asegura consistencia en los nombres de archivo
+      "allowSyntheticDefaultImports": true, // Permite la importación de módulos ES6+ como módulos default
+      "skipLibCheck": true // Omite la comprobación de archivos de biblioteca
+    },
+    "exclude": [
+      "node_modules",
+      "**/node_modules/*"
+    ]
+  }
+  
